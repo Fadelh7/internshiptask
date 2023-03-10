@@ -1,0 +1,9 @@
+Instructions on how to run the application:
+1- open project 
+2- open my SQL workbench then add a new connection
+3- click the "server" tab on top then click "data import"
+4- import the database file in the repositry.
+5- open the nodejs api
+6- adjust the port and the related MYSQL configurations  
+7- run the command "npm install"
+8- run the command "node index.js"
