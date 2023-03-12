@@ -7,3 +7,7 @@ Instructions on how to run the application:
 6- adjust the port and the related MYSQL configurations  
 7- run the command "npm install"
 8- run the command "node index.js"
+9- to test the authentication, you need first to call the /signup endpoint with the "username" and "password"
+10-to get a token, pass the "username" & "password" to the "/login" endpoint (x-www-form-urlencoded)
+11-to call the POST endpoint, you need to put the token in the headers as below :
+Authorization : Bearer YOUR_TOKEN

@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: posts_db
+-- Host: localhost    Database: posts_db
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -29,7 +29,7 @@ CREATE TABLE `posts_table` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `posts_table` (
 
 LOCK TABLES `posts_table` WRITE;
 /*!40000 ALTER TABLE `posts_table` DISABLE KEYS */;
-INSERT INTO `posts_table` VALUES (2,'Cr7','madrid',NULL,NULL),(3,'Ronaldo','brazil',NULL,NULL),(4,'Ramos','spain',NULL,NULL),(5,'pele','brazil',NULL,NULL),(6,'maradona','argentina',NULL,NULL),(7,'Kaka','brazil',NULL,NULL),(8,'vegeta','japan','2023-03-10 13:48:24','2023-03-10 13:48:24');
+INSERT INTO `posts_table` VALUES (2,'Cr7','madrid',NULL,NULL),(3,'Ronaldo','brazil',NULL,NULL),(4,'Ramos','spain',NULL,NULL),(5,'pele','brazil',NULL,NULL),(6,'maradona','argentina',NULL,NULL),(7,'Kaka','brazil',NULL,NULL),(8,'vegeta','japan','2023-03-10 13:48:24','2023-03-10 13:48:24'),(9,'xyz','greatfsf','2023-03-12 12:24:32','2023-03-12 12:24:32');
 /*!40000 ALTER TABLE `posts_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-10 19:34:25
+-- Dump completed on 2023-03-12 14:28:38
